@@ -32,7 +32,7 @@ const Meeting = ({ route }: MeetingProps) => {
       ref={jitsiMeeting}
       style={{ flex: 1 }}
       room={room}
-      serverURL={"http://192.168.1.4:5222"} // config.js dosyasının URL'sini buraya belirtin
+      serverURL={"http://YOUR_LOCAL_IP_ADDRESS:5222"}
     />
   );
 };
